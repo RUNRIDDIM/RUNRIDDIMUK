@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen - SOULCODE</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/runriddim.png" alt="soulcode">
+            </div>
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="tipsychoir.html">Events</a></li>
+                <li><a href="listen.html">Listen</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="listen-container">
+
+    <section id="listen">
+        <p class="paragraph-center">
+            Tap into the <strong>TIPSY CHOIR</strong> Spotify playlists. Curated by DJ Remzy. Our team of DJs are dedicated to going beyond the mainstream, crafting nostalgic experiences filled with authentic and fresh tunes we love to hear.
+        </p>
+        <div class="listen-container">
+            <div class="playlist">
+                <img src="images/RNBFORHER.png" alt="Playlist 1" class="playlist-image">
+                <iframe class="playlist-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/06CFYo97KbbfbHuaTSvfY9?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="playlist">
+                <img src="images/RNBFORHIM.png" alt="Playlist 2" class="playlist-image">
+                <iframe class="playlist-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3S8FoMM3NYHFsCoZqCKNj7?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="playlist">
+                <img src="images/RNBDUETS.png" alt="Playlist 3" class="playlist-image">
+                <iframe class="playlist-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1WCEUtM1mn0OH14225ZWty?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="playlist">
+                <img src="images/NEOSOUL.png" alt="Playlist 4" class="playlist-image">        
+                <iframe class="playlist-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4RECrVk2JL6FvWUGIClJSA?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="playlist">
+                <img src="images/REGGAE.png" alt="Playlist 5" class="playlist-image">                   
+                <iframe class="playlist-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4g1wjOPsbY6Im6rQBEXBi2?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <div class="song-request">
+        <h2>Song Request</h2>
+        <form id="song-request-form" action="submit_request.php" method="post">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="song-request">Song Request:</label>
+            <input type="text" id="song-request" name="song-request" required>
+    
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+    
+ 
+    <footer>
+        <a href="https://www.instagram.com/tipsychoirr/" target="_blank">
+            <img src="images/instagram.png" alt="Instagram" class="social-logo">
+        </a>
+        <a href="https://youtube.com" target="_blank">
+            <img src="images/youtube.png" alt="YouTube" class="social-logo">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
